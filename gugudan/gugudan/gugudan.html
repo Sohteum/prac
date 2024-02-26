@@ -29,6 +29,8 @@
                 inputEl.current.focus();
             } else {
                 setResult('땡' + first*second);
+                setFirst(Math.ceil(Math.random() * 9));
+                setSecond(Math.ceil(Math.random() * 9));
                 setValue('');
                 inputEl.current.focus();
             }
